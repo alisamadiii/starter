@@ -8,9 +8,7 @@ export const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
     <Suspense>
       <QueryClientProviders>
-          <NextThemeProviders>
-            {children} 
-          </NextThemeProviders>
+        <NextThemeProviders>{children}</NextThemeProviders>
         <ReactQueryDevtools />
       </QueryClientProviders>
     </Suspense>

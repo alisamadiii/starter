@@ -1,5 +1,5 @@
 "use server";
 
 export const getUser = async () => {
-  return {name: "John Doe"};
+  return { name: "John Doe" };
 };
