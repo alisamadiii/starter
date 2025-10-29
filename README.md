@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Tech Stack
+
+- **Framework**: Next.js 16 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **UI Components**: shadcn/ui with Radix UI primitives
+- **State Management**: Zustand
+- **Data Fetching**: TanStack Query (React Query)
+- **Theme**: next-themes for dark/light mode
+- **Notifications**: Sonner
+- **Animations**: Motion
+- **Icons**: Lucide React
+- **Package Manager**: pnpm
+
 ## Getting Started
 
 First, run the development server:
